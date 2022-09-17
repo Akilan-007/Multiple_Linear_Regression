@@ -1,1 +1,27 @@
+<html>
+    <head>
+        <title>ML_MODEL</title>
+    </head>
 
+    <body style="background-color:green">
+        <div >
+        <br><br>
+        <h1 style="text-align:center"> MACHINE LEARNING PREDICTION</h1>
+        </div>
+
+        <center>
+        <form method='POST', action="{{url_for('home')}}">
+            <b>
+                <br><br>
+                AT : <input type='text' id='AT' name='AT'><br><br>
+                 V : <input type='text' id='V' name='V'><br><br>
+                AP : <input type='text' id='AP' name='AP'><br><br>
+                RH : <input type='text' id='RH' name='RH'><br><br>
+            </b>
+            <input type='submit', value='predict'>
+            
+        </form>
+    </center>
+    </body>
+
+</html>
